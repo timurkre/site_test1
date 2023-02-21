@@ -40,18 +40,21 @@
 }
 
 .header-menu {
+    padding-right: 0;
     padding-top: 6px;
+    margin-left: 20px;
 }
 
 nav ul li {
     text-transform: uppercase;
     list-style-type: none;
     font-size: 16px;
+    letter-spacing: 1.7px;
 }
 
 nav ul li a {
-    margin-right: 47px;
-    font-weight: 700;
+    margin-right: 55px;
+    font-weight: 500;
     color: #000000;
     letter-spacing: 0.1em;
 }
@@ -61,30 +64,30 @@ nav ul li a:hover {color: #34547a;}
 .section-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 135px;
+    padding-top: 136px;
     padding-bottom: 155px;
 }
 
 .laptop {
-    padding-left: 134px;
+    padding-left: 136px;
     padding-top: 20px;
 }
 
 .caption {
-    font-size: 48px;
-    margin-bottom: 40px;
-
+    font-size: 44px;
+    margin-bottom: 48px;
+    letter-spacing: 2px;
 }
 
 .discription {
     width: 580px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
     line-height: 26px;
 }
 
 .button {
-    width: 225px;
-    height: 65px;
+    width: 228px;
+    height: 70px;
     background-color: #34547a;
     color: #FFFFFF;
     font-size: 16px;
@@ -94,9 +97,21 @@ nav ul li a:hover {color: #34547a;}
 
 .button:hover {background-color: #253b57;}
 
+.section-content {
+    padding: 400px 100px;
+    border: 1px solid black;
+    font-size: 26px;
+}
+
+.back {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
 .burger-icon {
     display: none;
-    margin-top: 5px;
+    margin-top: 1px;
+    margin-left: 20px;
 }
 
 .burger-icon span {
@@ -106,12 +121,16 @@ nav ul li a:hover {color: #34547a;}
     background-color: #000000;
 }
 
+h1:hover, ul li:hover {
+    text-shadow: red -3px 0, cyan 3px 0;
+}
+
 .burger-icon span:nth-child(2) {margin: 6px 0;}
 
 @media (max-width: 1250px) {
 
     .discription {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
         width: 100%;
     }    
     .right-part {
@@ -151,8 +170,10 @@ nav ul li a:hover {color: #34547a;}
 
     .section-container {
         display: block;
-        padding-top: 40px;
-        padding-bottom: 30px;
+        align-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .laptop {
@@ -162,6 +183,8 @@ nav ul li a:hover {color: #34547a;}
     }
 
     .right-part {
+        margin: 0 auto;
+        padding: 0;
         text-align: center;
         padding-left: 0;
     }
