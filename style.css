@@ -121,10 +121,6 @@ nav ul li a:hover {color: #34547a;}
     background-color: #000000;
 }
 
-h1:hover, ul li:hover {
-    text-shadow: red -3px 0, cyan 3px 0;
-}
-
 .burger-icon span:nth-child(2) {margin: 6px 0;}
 
 .mobile-container {
@@ -197,6 +193,14 @@ h1:hover, ul li:hover {
     width: 120px;
     text-transform: uppercase;
 }
+
+.mobile-list a {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+
+.mobile-list a:hover {color: rgb(232, 235, 52);}
 
 @media (max-width: 1250px) {
 
